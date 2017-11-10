@@ -5,6 +5,9 @@
  */
 package pruebajava3;
 
+import Conexion.interfaz;
+import javax.swing.JFrame;
+
 /**
  * Roxana Rojo B
  * Fecha 10 Noviembre
@@ -18,8 +21,18 @@ public class PruebaJava3 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) 
+            
+    {
+        interfaz Conexion = new interfaz();
+        interfaz w = new interfaz();
+          w.setVisible(true);
+          w.setBounds(0, 0, 400, 400);
+          w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+          
+          Conexion.setTitle("Tercera Evaluacion Sumativa");
+          w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+          
     }
     
 }
