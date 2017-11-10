@@ -6,6 +6,10 @@
 package pruebajava3;
 
 /**
+ * Roxana Rojo B
+ * Fecha 10 Noviembre
+ * Programa: PruebaJava3
+ * Responsabilidad: Clase Principal
  *
  * @author LAB03
  */
