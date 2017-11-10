@@ -26,12 +26,12 @@ public class PruebaJava3 {
     {
         interfaz Conexion = new interfaz();
         interfaz w = new interfaz();
-          w.setVisible(true);
-          w.setBounds(0, 0, 400, 400);
-          w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+          Conexion.setVisible(true);
+          Conexion.setBounds(0, 0, 400, 400);
+          Conexion.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
           
           Conexion.setTitle("Tercera Evaluacion Sumativa");
-          w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+          Conexion.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
           
     }
     
